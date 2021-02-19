@@ -15,8 +15,10 @@ module.exports = {
       directory: './data/seeds'
     },
     pool: {
-
-    }
+      // afterCreate: (conn, done) => {
+      //   conn.runn('PRAGMA froeign_keys = ON', done);
+      }
+    
   },
 
   staging: {
